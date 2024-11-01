@@ -1,0 +1,52 @@
+<style type="text/css">
+
+#LP_Footer{
+position: fixed;
+bottom: 0px;
+background-color: rgba(0, 0, 0, 0.7);
+font-size:19px;
+color:#E8DCB5;
+width:100%;
+display:none;
+}
+
+#LP_Footer a{
+ color:#09C;
+}
+
+#LP_BigMsg {
+padding:10px;
+padding-bottom:4px;
+}
+
+#LP_Countdown {
+	width:50px;
+	height:34px;
+	overflow:hidden;
+	float:right;
+	padding:4px;
+	color: #5D5D5D;
+	background-color: rgba(93, 93, 93, 0.8);
+	font-weight:bold;
+	font-size:27px;
+	color:#FFF;
+}
+
+
+</style>
+
+<!--[if IE]>
+<style type="text/css">
+#LP_Footer{
+filter:alpha(opacity=80);
+background-color: #000
+}
+#LP_Countdown { background-color: #5D5D5D }
+</style>
+<![endif]-->
+
+<div id="LP_Footer">
+<div id="LP_Countdown" align="center">%Countdown%</div>
+<div id="LP_BigMsg">"%Title%" has been publish %TimeAgo% ago | %Link%</div>
+</div>
+
